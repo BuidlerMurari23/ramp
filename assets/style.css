@@ -1,0 +1,85 @@
+/* body{
+    background: #d7cece;
+} */
+body{
+    background-image:url(bgimage.png);
+    /* height: 100vh;
+    width: 100vw; */
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    background-size: cover;
+    background-position: center;
+}
+header{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+header img {
+    height: 80px;
+    width: 200px;
+}
+header nav ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 80px;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+     cursor: pointer;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:  rgba(247, 181, 0, 0.998);
+}
+header nav ul li a:hover{
+    color: rgb(235, 14, 14);
+}
+.order{
+    background: rgb(231, 8, 8);
+    height: 40px;
+    width: 130px;
+    font-size: 25px;
+   color: rgb(249, 247, 247);
+   border: 1px solid black;
+   border-radius: 3px;
+   padding: 15px, 15px;
+    cursor: pointer;
+}
+.order:hover{
+    background: rgb(193, 232, 193);
+    color: rgb(235, 14, 14);
+}
+main{
+    text-align: center;
+}
+main h1{
+    font-size: 100px;
+    color: rgba(247, 181, 0, 0.998);
+    line-height: 100px;
+}
+.menu{
+    background: rgb(231, 8, 8);
+    height: 60px;
+    width: 230px;
+    border: none;
+    font-size: 25px;
+    color: whitesmoke;
+    border-radius: 3px;
+     cursor: pointer;
+}
+.menu:hover{
+    background:  rgb(193, 232, 193);
+    color: rgb(235, 14, 14);
+}
+footer img{
+   position:relative;
+   left:1270px;
+   top:50px;
+   height: 130px;
+   width: 130px;
+}
